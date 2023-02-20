@@ -26,6 +26,7 @@ Tested with these versions but older versions may work.
 The application requires the Road Crashes CSV file (`crash_data_queensland_1_crash_locations.csv`), which can be downloaded from the [Open Data Portal](https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads/resource/e88943c0-5968-4972-a15f-38e120d72ec0) of the Queensland Government, Australia.
 
 The file should be placed under the folder `data` in the root folder.
+
 <img width="338" alt="image" src="https://user-images.githubusercontent.com/8808539/220055872-561e7063-d5bc-4328-a16a-28737937ab0c.png">
 
 ### Mapbox Access Token
