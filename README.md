@@ -2,7 +2,7 @@
 ### Source code and Docker files for cloud deployment
  
 This repository contains the source code and configuration files for the medium articles:
-* [Exploring Geolocation Data with Plotly Express and Dash: A Road Crashes Dashboard](https://medium.com/@andrewlui_60044/exploring-geolocation-data-with-plotly-express-and-dash-road-crashes-dashboard-abef05908258)
+* [Exploring Geolocation Data with Plotly Express and Dash: A Road Crashes Dashboard](https://medium.com/@andrewlui_60044/exploring-geolocation-data-with-plotly-express-and-dash-road-crashes-dashboard-abef05908258){:target="_blank"}
 * [Dockerize and Deploy a Dash Application to the Cloud]
 
 <img width="1097" alt="image" src="https://user-images.githubusercontent.com/8808539/219955813-c55e37c8-2f43-4aaf-9f6e-c0b47cab49a2.png">
@@ -21,3 +21,7 @@ Tested with these versions but older versions may work.
 - `app_mapbox.py`: The dashboard web application (using Mapbox tiles)
 - `Dockerfile`: The Docker container configuration file for cloud deployment of the dashboard
 - `mapbox_access_token.txt`: The access token obtained from Mapbox (for the version that uses Mapbox tiles)
+
+### The Road Crashes Data File
+The application requires the Road Crashes CSV file (`crash_data_queensland_1_crash_locations.csv`), which can be downloaded from the [Open Data Portal](https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads/resource/e88943c0-5968-4972-a15f-38e120d72ec0){:target="_blank"} of the Queensland Government, Australia.
+The file should be placed under the folder `data` in the root folder.
