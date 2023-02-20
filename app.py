@@ -11,7 +11,8 @@ class CrashData():
         try:
             self.df = pd.read_csv(csvfile, index_col=0)
             print(f'The shape before cleansing {self.df.shape}')
-            self.df = self.df[self.df['Loc_Local_Government_Area'] != 'Unknown']
+            self.df = self.df.loc[self.df['Loc_Local_Government_Area'] != 'Unknown', 
+                ['Crash_Year','Crash_Type','Crash_Longitude','Crash_Latitude']]
             print(f'The shape after cleansing {self.df.shape}')
         except:
             sys.exit('Unable to load data file')
