@@ -39,9 +39,7 @@ To obtain an access token, please visit https://www.mapbox.com/, create an accou
 
 ### Licences
 
-Copyright (C) 2021 - Andrew Kwok-Fai Lui
-
-The Open University of Hong Kong
+Copyright (C) 2023 - Andrew Kwok-Fai Lui
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation.
 
