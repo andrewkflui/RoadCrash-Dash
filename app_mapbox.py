@@ -53,7 +53,7 @@ def plot_crash_location(year_range, type_list):
         color_discrete_map=color_discrete_map,
         center={'lat': data.center_lat, 'lon': data.center_long}
         )
-    fig.update_layout(mapbox_style='open-street-map', margin={"r": 0, "l": 0, "b": 20})
+    # fig.update_layout(mapbox_style='open-street-map', margin={"r": 0, "l": 0, "b": 20})
     fig.update_layout(mapbox_style="dark", mapbox_accesstoken=mapbox_access_token)
     fig['layout']['uirevision'] = 'unchanged' # to preseve the ui setting such as zoom and panning in the update
     return fig 
