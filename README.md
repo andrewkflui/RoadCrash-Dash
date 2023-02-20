@@ -3,7 +3,7 @@
  
 This repository contains the source code and configuration files for the medium articles:
 * [Exploring Geolocation Data with Plotly Express and Dash: A Road Crashes Dashboard](https://medium.com/@andrewlui_60044/exploring-geolocation-data-with-plotly-express-and-dash-road-crashes-dashboard-abef05908258)
-* [Dockerize and Deploy a Dash Application to the Cloud]
+* [Dockerize and Deploy a Dash Application to the Cloud](https://medium.com/@andrewlui_60044/docker-ize-a-python-dash-application-and-deploy-it-to-cloud-717a7c25de5b)
 
 <img width="1097" alt="image" src="https://user-images.githubusercontent.com/8808539/219955813-c55e37c8-2f43-4aaf-9f6e-c0b47cab49a2.png">
 
@@ -34,9 +34,9 @@ A mapbox access token is required for running `app_mapbox.py`, which uses Mapbox
 ```
 fig.update_layout(mapbox_style="dark", mapbox_accesstoken=mapbox_access_token)
 ```
-You may change the style from the dark theme to other available [themes](https://docs.mapbox.com/api/maps/styles/).
+You may change the style from the dark theme to other available [themes](https://docs.mapbox.com/api/maps/styles/).  
 
-To obtain an access token, please visit https://www.mapbox.com/, create an account and obtain an access token.
+Please visit https://www.mapbox.com/ to create an account, obtain an access token, and store the token in the file `mapbox_access_token.txt`.
 
 ### Licences
 
