@@ -34,9 +34,9 @@ A mapbox access token is required for running `app_mapbox.py`, which uses Mapbox
 ```
 fig.update_layout(mapbox_style="dark", mapbox_accesstoken=mapbox_access_token)
 ```
-You may change the style from the dark theme to other available [themes](https://docs.mapbox.com/api/maps/styles/).
+You may change the style from the dark theme to other available [themes](https://docs.mapbox.com/api/maps/styles/).  
 
-To obtain an access token, please visit https://www.mapbox.com/, create an account and obtain an access token.
+Please visit https://www.mapbox.com/ to create an account, obtain an access token, and store the token in the file `mapbox_access_token.txt`.
 
 ### Licences
 
