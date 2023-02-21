@@ -4,6 +4,7 @@
 This repository contains the source code and configuration files for the medium articles:
 * [Exploring Geolocation Data with Plotly Express and Dash: A Road Crashes Dashboard](https://medium.com/@andrewlui_60044/exploring-geolocation-data-with-plotly-express-and-dash-road-crashes-dashboard-abef05908258)
 * [Dockerize and Deploy a Python Dash Application: AWS](https://medium.com/@andrewlui_60044/docker-ize-a-python-dash-application-and-deploy-it-to-cloud-717a7c25de5b)
+* [Dockerize and Deploy a Python Dash Application: Google Cloud]
 
 <img width="1097" alt="image" src="https://user-images.githubusercontent.com/8808539/219955813-c55e37c8-2f43-4aaf-9f6e-c0b47cab49a2.png">
 
